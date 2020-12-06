@@ -1,24 +1,23 @@
-# dashboard
+# Dashboard
 
-## Project setup
-```
-npm install
-```
+## Configurando testes unitários
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+```bash
+# Instalando pacotes necessários
+$ npm install @vue/cli-plugin-unit-jest @vue/test-utils
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+Adicione `"test": "jest"` aos scripts disponíveis.
+
+```bash
+# Criar o arquivo 'jest.config.js' na raiz e adicione:
+module.exports = {
+  preset: '@vue/cli-plugin-unit-jest'
+}
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+Crie os testes dentro da pasta `/tests/unit/` com extensão `*.test.js` ou `*.spec.js`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+> Link usado como base: https://www.digitalocean.com/community/tutorials/vuejs-vue-testing
+
+## 
