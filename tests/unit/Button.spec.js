@@ -1,14 +1,49 @@
 import { mount } from '@vue/test-utils';
 import Button from '../../src/components/elements/Button.vue';
 
-const factory = () => {
-  return mount(Button);
+let wrapper;
+
+const factory = (propsData) => {
+  return mount(Button, {
+    propsData: {
+      ...propsData
+    }
+  });
 }
 
 describe('Button Component', () => {
-  const wrapper = factory();
+  beforeEach(() => {
+    wrapper = factory();
+  });
+  
+  afterEach(() => {
+    wrapper.destroy();
+  });
 
   it('has property with default value', () => {
+    // THEN
     expect(wrapper.vm.$props).toEqual({'type': 'button'});
   });
+
+  it('should return btn-primary class', () => {
+    // THEN
+    expect(wrapper.vm.buttonClass).toEqual('btn-primary');
+  });
+
+  describe('with not default property', () => {
+    beforeEach(() => {
+      wrapper = factory({
+        type: 'link'
+      });
+    });
+
+    afterEach(() => {
+      wrapper.destroy();
+    });
+
+    it('should return btn-link class', () => {
+      // THEN
+      expect(wrapper.vm.buttonClass).toEqual('btn-link');
+    });
+  })
 });
