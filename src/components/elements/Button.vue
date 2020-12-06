@@ -1,5 +1,5 @@
 <template>
-  <button type='button' :class='style'>
+  <button type='button' :class='buttonClass'>
     <slot />
   </button>
 </template>
@@ -14,7 +14,7 @@
       }
     },
     computed: {
-      style() {
+      buttonClass() {
         return this.type === 'button' ? 'btn-primary' : 'btn-link';
       }
     }
