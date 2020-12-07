@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import Button from '../../src/components/elements/Button.vue';
+import Button from '../../../src/components/elements/Button.vue';
 
 let wrapper;
 
@@ -39,6 +39,11 @@ describe('Button Component', () => {
 
     afterEach(() => {
       wrapper.destroy();
+    });
+
+    it('has property modified', () => {
+      // THEN
+      expect(wrapper.vm.$props).toEqual({'type': 'link'});
     });
 
     it('should return btn-link class', () => {
