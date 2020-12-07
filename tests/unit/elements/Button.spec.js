@@ -25,6 +25,11 @@ describe('Button Component', () => {
     expect(wrapper.vm.$props).toEqual({'type': 'button'});
   });
 
+  it('should render to a snapshot when component is initialized', () => {
+    // THEN
+    expect(wrapper.element).toMatchSnapshot();
+  });
+
   it('should return btn-primary class', () => {
     // THEN
     expect(wrapper.vm.buttonClass).toEqual('btn-primary');
