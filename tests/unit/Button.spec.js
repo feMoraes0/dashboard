@@ -1,10 +1,10 @@
-import { mount } from '@vue/test-utils';
+import { shallowMount } from '@vue/test-utils';
 import Button from '../../src/components/elements/Button.vue';
 
 let wrapper;
 
 const factory = (propsData) => {
-  return mount(Button, {
+  return shallowMount(Button, {
     propsData: {
       ...propsData
     }
