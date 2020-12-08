@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu component with component mounted should render to a snapshot when component is initialized 1`] = `
+<section>
+  <a
+    href=""
+  >
+    <img
+      alt=""
+      src="../../assets/hearthstone-battlegrounds.png"
+    />
+  </a>
+   
+  <button-stub
+    type="button"
+  >
+    <i
+      class="fas fa-plus"
+    />
+    
+    Add new entry
+  
+  </button-stub>
+   
+  <div
+    class="links"
+  >
+    <button-stub
+      type="link"
+    >
+      <i
+        class="fas fa-home"
+      />
+      
+      Home
+    
+    </button-stub>
+     
+    <button-stub
+      type="link"
+    >
+      <i
+        class="far fa-chart-bar"
+      />
+      
+      Charts
+    
+    </button-stub>
+     
+    <button-stub
+      type="link"
+    >
+      <i
+        class="fas fa-table"
+      />
+      
+      Registers
+    
+    </button-stub>
+     
+    <button-stub
+      type="link"
+    >
+      <i
+        class="fas fa-users"
+      />
+      
+      Heroes
+    
+    </button-stub>
+     
+    <button-stub
+      type="link"
+    >
+      <i
+        class="fas fa-cogs"
+      />
+      
+      Settings
+    
+    </button-stub>
+     
+    <button-stub
+      type="link"
+    >
+      <i
+        class="fas fa-sign-out-alt"
+      />
+      
+      Sign out
+    
+    </button-stub>
+  </div>
+</section>
+`;

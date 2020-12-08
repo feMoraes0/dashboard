@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component should render to a snapshot when component is initialized 1`] = `
+<button
+  class="btn-primary"
+  type="button"
+/>
+`;
