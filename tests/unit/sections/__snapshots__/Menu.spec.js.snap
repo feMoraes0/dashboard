@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Menu component with component mounted should render to a snapshot when component is initialized 1`] = `
+exports[`Menu component when component is mounted should render to a snapshot when component is initialized 1`] = `
 <section>
   <a
     href=""
