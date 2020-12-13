@@ -6,12 +6,13 @@
   },
   "extends": [
     "plugin:vue/essential",
-    "eslint:recommended"
+    "eslint:recommended",
+    "plugin:prettier/recommended"
   ],
   "parserOptions": {
     "parser": "babel-eslint"
   },
   "rules": {
-    "quotes": ["error", "single"]
+    
   }
 }
