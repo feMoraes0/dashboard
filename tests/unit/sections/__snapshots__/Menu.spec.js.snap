@@ -14,9 +14,7 @@ exports[`Menu component when component is mounted should render to a snapshot wh
   <button-stub
     type="button"
   >
-    <i
-      class="fas fa-plus"
-    />
+    <plusicon-stub />
     
     Add new entry
   
@@ -28,9 +26,7 @@ exports[`Menu component when component is mounted should render to a snapshot wh
     <button-stub
       type="link"
     >
-      <i
-        class="fas fa-home"
-      />
+      <homeicon-stub />
       
       Home
     
@@ -39,9 +35,7 @@ exports[`Menu component when component is mounted should render to a snapshot wh
     <button-stub
       type="link"
     >
-      <i
-        class="far fa-chart-bar"
-      />
+      <charticon-stub />
       
       Charts
     
@@ -50,9 +44,7 @@ exports[`Menu component when component is mounted should render to a snapshot wh
     <button-stub
       type="link"
     >
-      <i
-        class="fas fa-table"
-      />
+      <listicon-stub />
       
       Registers
     
@@ -61,9 +53,7 @@ exports[`Menu component when component is mounted should render to a snapshot wh
     <button-stub
       type="link"
     >
-      <i
-        class="fas fa-users"
-      />
+      <peopleicon-stub />
       
       Heroes
     
@@ -72,9 +62,7 @@ exports[`Menu component when component is mounted should render to a snapshot wh
     <button-stub
       type="link"
     >
-      <i
-        class="fas fa-cogs"
-      />
+      <settingsicon-stub />
       
       Settings
     
@@ -83,9 +71,7 @@ exports[`Menu component when component is mounted should render to a snapshot wh
     <button-stub
       type="link"
     >
-      <i
-        class="fas fa-sign-out-alt"
-      />
+      <logouticon-stub />
       
       Sign out
     
