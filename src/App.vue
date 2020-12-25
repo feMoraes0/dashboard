@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="content-app">
     <Menu />
     <Body />
   </div>
@@ -19,14 +19,22 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
 
 :root {
   --background-colour: rgba(236, 241, 243, 1);
   --white-colour: #ffffff;
 
-  --menu-width: 18%;
-  --body-width: 82%;
+  --menu-width: 18vw;
+  --body-width: 82vw;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 * {
@@ -37,13 +45,13 @@ export default {
   box-sizing: border-box;
 }
 
-#app {
+#content-app {
   background-color: var(--background-colour);
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 </style>

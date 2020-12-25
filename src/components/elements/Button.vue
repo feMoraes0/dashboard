@@ -38,18 +38,18 @@ button {
   font-size: 15px;
   font-weight: 400;
   line-height: 16px;
-  color: white;
+  color: rgba(31, 102, 121, 1);
 }
 
 button svg {
-  width: 18px !important;
-  height: 18px !important;
-  color: white;
+  width: 20px !important;
+  height: 20px !important;
+
   margin-right: 27px;
 }
 
 .btn-primary {
-  background-color: #0054fe;
+  background-color: rgba(221, 232, 235, 1);
 }
 
 .btn-link {
