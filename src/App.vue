@@ -19,10 +19,10 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
 
 :root {
-  --background-colour: #f5f6fa;
+  --background-colour: rgba(236, 241, 243, 1);
   --white-colour: #ffffff;
 
   --menu-width: 18%;
@@ -33,7 +33,7 @@ export default {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
