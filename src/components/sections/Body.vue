@@ -39,7 +39,7 @@ export default {
 #body {
   min-height: 100vh;
   width: 82vw;
-  margin-left: var(--menu-width);
+  overflow: auto;
 }
 
 div.content {
@@ -51,10 +51,15 @@ div.content {
   padding-right: 10px;
 }
 
+div.content div.row {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .box {
   position: relative;
-  width: calc(41vw - 30px);
-  margin: 0px 10px;
   background-color: white;
   padding: 30px;
   border-radius: 20px;

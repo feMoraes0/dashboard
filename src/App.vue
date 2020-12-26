@@ -29,11 +29,7 @@ export default {
   --body-width: 82vw;
 }
 
-body {
-  width: 100vw;
-  min-height: 100vh;
-
-  overflow-y: scroll;
+html {
   overflow-x: hidden;
 }
 

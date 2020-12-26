@@ -63,8 +63,8 @@ export default {
 
 <style scoped>
 section {
-  position: fixed;
-  height: 100vh;
+  align-self: stretch;
+  position: relative;
   width: var(--menu-width);
   background-color: var(--white-colour);
   padding-top: 20px;
